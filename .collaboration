@@ -1,17 +1,47 @@
 [
   {
     "ModuleName": "Table/카테고리_테이블",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Forguncy-Korea",
+      "Email": "jake.park@grapecity.com"
+    },
+    "LockDateTime": "2022-04-26T17:32:39.3033877+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\카테고리_테이블.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/상태_테이블",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Forguncy-Korea",
+      "Email": "jake.park@grapecity.com"
+    },
+    "LockDateTime": "2022-04-26T17:32:39.3033877+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\상태_테이블.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/즐겨찾기_테이블",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Forguncy-Korea",
+      "Email": "jake.park@grapecity.com"
+    },
+    "LockDateTime": "2022-04-26T17:32:39.3033877+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\즐겨찾기_테이블.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
