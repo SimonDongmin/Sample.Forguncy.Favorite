@@ -163,7 +163,7 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "='즐겨찾기 (3)'!L2"
+                        "SerializeProperty": "=즐겨찾기!L2"
                       }
                     ]
                   },
@@ -186,7 +186,7 @@
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='즐겨찾기 (3)'!L2"
+                          "SerializeProperty": "=즐겨찾기!L2"
                         },
                         "Id": "1cd33bb3-22b0-4974-ab2d-393736bead20"
                       },
@@ -199,7 +199,7 @@
                         },
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                          "SerializeProperty": "='즐겨찾기 (3)'!L2"
+                          "SerializeProperty": "=즐겨찾기!L2"
                         },
                         "Id": "aef579c9-187d-44d0-9016-ba20ba66d010"
                       },
@@ -2242,7 +2242,7 @@
               },
               "Value": {
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "='즐겨찾기 (3)'!AN25"
+                "SerializeProperty": "=즐겨찾기!AN25"
               },
               "Id": "a64203d3-a465-4b65-85f9-dda48e0c3ee7"
             },
@@ -2251,7 +2251,7 @@
                 "ColumnName": "주_클릭",
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='즐겨찾기 (3)'!AV25"
+                  "SerializeProperty": "=즐겨찾기!AV25"
                 }
               }
             ]
@@ -2279,7 +2279,7 @@
               },
               "Value": {
                 "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "='즐겨찾기 (3)'!AN16"
+                "SerializeProperty": "=즐겨찾기!AN16"
               },
               "Id": "3d2c2dcf-86e5-4273-a4f7-13e74337135c"
             },
@@ -2288,7 +2288,7 @@
                 "ColumnName": "주_클릭",
                 "Value": {
                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "='즐겨찾기 (3)'!AV16"
+                  "SerializeProperty": "=즐겨찾기!AV16"
                 }
               }
             ]
@@ -2391,12 +2391,12 @@
   "CustomNames": [
     {
       "Name": "요일",
-      "Formula": "'즐겨찾기 (3)'!$BC$21",
+      "Formula": "즐겨찾기!$BC$21",
       "Comment": "오늘의 요일"
     },
     {
       "Name": "navi",
-      "Formula": "'즐겨찾기 (3)'!$B$5"
+      "Formula": "즐겨찾기!$B$5"
     }
   ]
-}//f5drAVVhfByu+ZwQo7mIYeCoPCQ7ksz9ydNYbTQ+wku6WSqGrvX8A1AAU9IiQFDO5wWM9TYfbgqebYABu8l16vEUsLFN7fucEogdyrbkd2Lj7k/dxbTC/SEhy8wRupjQUFOtbooCylurLUTeSezBSWaAac/1/0RsCc1ufCMHoJjDpVX7tQjaFJ8v5UDNh27PryxzQawLtIHLWUpVUkumCyjt4H4nllXT8pp+lnviSv7zgLcosz64LY/WHI9vRaRsNDDWjnLjxFaXi/UXL+AunXfJqx8ZtnrnnXzn8O3XCtx2oMb6OZ9NC6qjPC3NsTnQ7GSBVjmkV7eGgTQJ9TfO7m90X6UBjqJshtD62myWFONxV4DTIy0wRjQwzwMYpLLavqSClF61Sb1DMjDO/VFKmNOaw6fVcy+iA9RhHxSk/J7BbnZA0UTCE9U+IiaLpRXLIX8ZdWQLdbqHsynH4sekq1GpTjpBN/yszywRPJdsaswoVHx1mTjHLfCLRx7S6q5Q9o8lxuF+Ss3XOPGJKGOlXuYNAwYfTmh0jpWPoZF5e4iwsZFzCosXEmDKsO90a8tVluMFQKrpBuiR8jVL7g33u37DiCcPLlaQ3BVWZYh3qqZwVPcibVyD4FwPTxX7wemXufW1+dzLZq74xGWCP8fSLTr6Tq4OXIJDYUFtckbqMsO+NRgugTtJqe54c2uFp9k6y2u9Umni7OodFHqMc8WKAqJYowt1Aa6M+atM0RFCr7/EVepMuw2Wjf50AgjdXD3YCFY2cVvdLMX2Sf2hAgGu3dmNRtEb8skyreG63hk4owXtTKQwySvx4t4SayW1IpblFg/JYo1YAjDcbyDt9FQD5xdpzr9MptrRaOzDvhYsZ+XbSkiexXNNPmJj5tA3GrXpYYde9I/mnpajv4kUvtqiyA==|920
+}//HSeJiv490pBPKZetXR8O/ecrdEl7QiL4tOCHBHDU4GoieXJmOOmeK9PHZzjIr58R0dBuUzZWl4S20PZXZ6CVu9kf1SwmFyCarDwpwIoorQqneGaKKw8ebvWFtcrzRh27j4soHdzSNabuZLK9U303f2BxPY5KZ9wxnX9wsAqZ+1wgfoR0pzAVh3+bCd0vBSqFkcNNhvVqcu16A117KMUKMPohn2oAzSKitDkc21bEkUUsUwU2tCqJP+HJX6TLU7osEJpdPoctT9nk5sjgoOWKsUPqc+dM6Yq8NMQslXBUdaQRZ61eV7ezzXPNQCIIGCi/1kzwi2vypQ5PYuWQmOrQy3SaGUgQTdfScze6zSVnWQYsL1OFxtpAXYM0EKCoDAVFDheZrI8DC/RGzrlfXbXdhXFF/IqUtL8bFTxf4kLO2KXttGGhpMBpLUpXKaYdbj4LxcVb0eh2euEtRDQ0xM26tyH5t5UmwZ0HR21KVlhOaRiOsMWAccCnxwUBcXa7kiYfDmEQXxqms0U4mB94aAuTvCmWekKciF6rgBXX6lka8QQ4S6bLpnFkYF2UmVn6ENQNU1ULV5dYh+BT5BqhxZS1LcL0kpPaQkL2gRy60OPd/KYceny8oY2TVjDod9Q0TYZxcG9DQUC837VtnKRFct3LTsRjkPQpcugy6ZMkzkb7Abs0G6uE/2qkXojSBpCUMx8AEOAa5xh6qBNALU87sLfv8QDTCZC7ACo2t0SOocQYW3OwtF+gqnC1BZNT45JgBKeH6ThLPK4AsEIEXk11rJ3xULioaAPVOqnK6+iWUei3WJSTrcfIfkv5bAXfjKLlQr97WqXYi6NI3C6AfwXSZFv209Dv2JRDKyO/LLxKjGkerMJxfvIAYEkxroI7IkOLforhr0GpTGtm2TvyrTpZhB7oRw==|920
