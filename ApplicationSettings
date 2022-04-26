@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationSettings>
+  <AuditingList class="System.Collections.Generic.Dictionary`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" assembly="mscorlib">
+    <Item class="CommonUtilities.KeyValue" assembly="CommonUtilities">
+      <Key type="System.String">
+        <Value>카테고리_테이블</Value>
+      </Key>
+      <Value type="System.Int32">
+        <Value>0</Value>
+      </Value>
+    </Item>
+    <Item class="CommonUtilities.KeyValue" assembly="CommonUtilities">
+      <Key type="System.String">
+        <Value>상태_테이블</Value>
+      </Key>
+      <Value type="System.Int32">
+        <Value>0</Value>
+      </Value>
+    </Item>
+    <Item class="CommonUtilities.KeyValue" assembly="CommonUtilities">
+      <Key type="System.String">
+        <Value>즐겨찾기_테이블</Value>
+      </Key>
+      <Value type="System.Int32">
+        <Value>0</Value>
+      </Value>
+    </Item>
+  </AuditingList>
+  <FocusMoveMode>Default</FocusMoveMode>
+  <IntegrateWithOtherApplication>
+    <Password>Z8whO~lqwVd%</Password>
+  </IntegrateWithOtherApplication>
+  <MaxRowCount>10000000</MaxRowCount>
+  <NotAllowModifyDatabaseByJsApi>False</NotAllowModifyDatabaseByJsApi>
+  <StartDateFiscalYear>4</StartDateFiscalYear>
+  <StartPage>즐겨찾기 (3)</StartPage>
+  <UserServicePort>13755</UserServicePort>
+  <WebSitePort>49364</WebSitePort>
+</ApplicationSettings>
