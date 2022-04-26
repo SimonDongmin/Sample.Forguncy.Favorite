@@ -141,7 +141,7 @@
     "1,18": {
       "TemplateCellSource": "사이트주소"
     },
-    "2,7": {
+    "2,13": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
@@ -149,7 +149,7 @@
             "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
             "PopupDisplayMode": 1,
             "Placement": {
-              "SerializeProperty": "='a558cb85-c156-463b-9377-e15622080fcd'!B2"
+              "SerializeProperty": "='a558cb85-c156-463b-9377-e15622080fcd'!B9"
             },
             "PageName": "즐겨찾기 정보",
             "PassValues": [],
@@ -166,7 +166,79 @@
         "IconSize": 12.0
       }
     },
-    "2,11": {
+    "2,18": {
+      "TemplateCellSource": "요일"
+    },
+    "3,18": {
+      "TemplateCellSource": "클릭수"
+    },
+    "4,2": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "ValueFormula": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='a558cb85-c156-463b-9377-e15622080fcd'!S2"
+            },
+            "PassValues": [],
+            "IsOpenInNewTab": true
+          }
+        ],
+        "ClickMode": 1,
+        "TemplateKey": "흰색_링크"
+      },
+      "TemplateCellSource": "사이트명"
+    },
+    "4,18": {
+      "TemplateCellSource": "카테고리"
+    },
+    "8,11": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "ConfirmDialogSettings": {
+                  "Title": "삭제 확인",
+                  "FormulaText": "선택하신 즐겨찾기를 삭제하시겠습니까?",
+                  "YesButtonText": "삭제",
+                  "NoButtonText": "취소",
+                  "ConfirmIcon": 4
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "즐겨찾기_테이블",
+                    "ShowConfirm": false,
+                    "ConfirmText": "즐겨찾기를 삭제하시겠습니까?",
+                    "UpdateValues": [
+                      {
+                        "ColumnName": "상태",
+                        "Value": "삭제"
+                      }
+                    ],
+                    "ParamNameToSaveNewRowValue": "NewRow"
+                  }
+                ],
+                "ID": "49dab41a-6252-4101-b335-bf4798e504bf"
+              }
+            ]
+          }
+        ],
+        "TemplateKey": "스타일10",
+        "Icon": {
+          "Name": "Application/037_delete_2.svg",
+          "BuiltIn": true,
+          "Color": "Background 1"
+        },
+        "IconSize": 12.0
+      }
+    },
+    "8,14": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
@@ -193,45 +265,6 @@
         },
         "IconSize": 12.0
       }
-    },
-    "2,14": {
-      "CellType": {
-        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
-        "CommandList": [
-          {
-            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-            "TableName": "즐겨찾기_테이블",
-            "ShowConfirm": true,
-            "ConfirmText": "즐겨찾기를 삭제하시겠습니까?",
-            "UpdateValues": [
-              {
-                "ColumnName": "상태",
-                "Value": "삭제"
-              }
-            ],
-            "ParamNameToSaveNewRowValue": "NewRow"
-          }
-        ],
-        "TemplateKey": "스타일10",
-        "Icon": {
-          "Name": "Application/037_delete_2.svg",
-          "BuiltIn": true,
-          "Color": "Background 1"
-        },
-        "IconSize": 12.0
-      }
-    },
-    "2,18": {
-      "TemplateCellSource": "요일"
-    },
-    "3,18": {
-      "TemplateCellSource": "클릭수"
-    },
-    "4,2": {
-      "TemplateCellSource": "사이트명"
-    },
-    "4,18": {
-      "TemplateCellSource": "카테고리"
     },
     "12,2": {
       "TemplateCellSource": "월_클릭"
@@ -271,15 +304,14 @@
       {
         "FontFamily": 0,
         "FontSize": 16.0,
-        "Foreground": 1,
-        "HorizontalAlignment": 2,
-        "WordWrap": true
+        "HorizontalAlignment": 1,
+        "WordWrap": true,
+        "Underline": false
       }
     ],
     "Types": {
       "Strs": [
         "Body",
-        "Background 1 0",
         "Center"
       ]
     },
@@ -287,14 +319,26 @@
       "1,1": 0,
       "1,18": 1,
       "2,1": 0,
-      "2,7": 2,
-      "2,11": 2,
+      "2,13": 2,
+      "2,14": 2,
+      "2,15": 2,
+      "3,13": 2,
+      "3,14": 2,
+      "3,15": 2,
       "3,18": 1,
       "4,2": 3,
       "6,16": 2,
       "6,17": 2,
       "6,18": 1,
       "7,18": 1,
+      "8,11": 2,
+      "8,12": 2,
+      "8,14": 2,
+      "8,15": 2,
+      "9,11": 2,
+      "9,12": 2,
+      "9,14": 2,
+      "9,15": 2,
       "9,18": 1,
       "12,11": 2,
       "12,14": 2
@@ -304,13 +348,13 @@
     }
   },
   "Spans": [
-    "2,14,2,2",
-    "2,11,2,2",
     "12,6,1,5",
     "12,11,1,3",
     "12,14,1,3",
+    "2,13,2,3",
     "4,2,4,14",
-    "2,7,2,3"
+    "8,14,2,2",
+    "8,11,2,2"
   ],
   "BackgroundPictures": [
     {
@@ -641,4 +685,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//xYaR4cqDwDtRXh3GkLf/GKdP/cy+I7aiVNKBCG6DIoPp+nleL3w1syWgPSl/8qYUSv+n1hyyR0YQ7ttLERc7y7JJ/B7QRA9fmujchPh8hlJRcO15gOcpJEaYm3PJP4ewmgmMM3OUiVoAKyQLkkH6s8tC0Lbu9sFIg705VC5O5vqN6lmTrG26fgty2AJFjVEcMf7L+ASehRvKw33NQanoYATxnZjp0mp0+xwWBB7+2pGdikV83oIdLFk5MDIV0MJn0Av4FaqqTAgK27zfRn+15LRqfUdPXlrR86CaNgcbxL2P1qyx0R/nouawA+CK2ITis9H+OIOcDCYgvLv+9oH4iqzSWILdpX7p1J6GqYIwgztn10Q9UsKpMHaTwuQrgPscUU6klg8P5h4cRhD86vQgUneBWiWU38o1BAAHksMULztnUNwKDVDlLmgI6YtsQ5k0unTj7YiM+cvYrVB3xItX/9Vuw/Hq9NYRwVXA3uSsZ5RLUHyVNX54rj8b4uMGafzVdaNKE9uePL8Ez5eIqC37TpyWx5mAySKPLgYsDoPfcp3oP5GJ0ys7VvAq2EjRi2Iqqyx1w0q0XEojubUjUemDK2ySAekKfXYOYmEfZMncjeOZsaZpSsbZt0F4Xf2jy0Rq7GKYiF2FJUcKMnf331Si7ufUzt/2BHrP4I2VZlenTkjuOaVGmCDQ2+CeUyD6IWYK353t5Pe0u9LxW9YFlkERUsMLzHzSznflpOivTm6DwLbjqBe3Dc4tH4KyOcteLbdJYqi+9UsWnKFM1ZWQt/cjtgIxzSWMbhfICor6tCfNwpERvOyy4OVrPOBVteKs8biupFoJmEbxs/ScpkBMb+MzYrj94LF4op6vqnz0r1O1Ef2ThEie6/Kmh9VUgqeIY7fTn77EUEs7Mz6siT5G+qVMsA==|920
+}//1+vwfvZbdTL1MSwigA/xKmJR75bDWrmmunhcv4K+wDCkCjQlYV2WDdTWSDal/h7ExjDBasHF7ErU4Uwm7mJ4Qyhj1mbfBZC8/ux/jX4A3TdPeMoV1QOMsOxP/ocSvvHKgjrCVwHvbyAAl4xSOaAbD3NShzK0UlKxkn7pGpAbo2Z6XBzIxXx71DD0Pk9yXlJnwTzFq/o2c3lWsectGJHnIQGc3dZjhKITt4qSSm9RThBh2oj6X90uifkTdk2KA45dCgKXWT2kE11oIxfvqkXq/Xpd2EwVMfy9dFBx8woBVPBrxRkQTTdXqGm4WWhXj4A6hU2QDmGPaj0V9X53P3NWX6k2EgK3mpt5ZdaQLMc57lpRZ1KId/XXEBQdhoNkQPBRvwaOVi8CBz83drQLuvZfgYhOLdubHhMekN5J1uC7NQP4oinOtLBNOy0kjrHA3ogUZNJNYi1WnkmaSCtPZzb9PenFxOe6oHBzZqXIB7WZkZxdAOIF99Xlob5y3GtD7l0n3vYs8/JPzITBhAUo4wpfIUAgkoliBZOc8K3vHlVKyypJZa/mAD4maxij4xtSXlW4rfk9vGs1ZdIFFfcPDqHddDPXH0FmKHGulEOoOfZ60lScl6+ENes2EbPkLLfQ/VSfO4XfVcRpsx4/kZ46LoyBW6LxdTBN/PV9aMJsUVvSBKA37HrEVmrvww8JIOuOpRvx4qCGiXhnoJ7K51GBnqBlO/6y/RcID9Zc7xPf5mvPatuw94ZDRHvsQfDEj874P4QqU1e7iHm4dr+ZZEGW8bLggYEI34uFep+f/2bQH9MGoT8nZMsOQN2O5Yh0F8ffu7Qqry2lHBzcBnoyLVkT8hVR9YMpRzr/zyZng4t1Wrh+SzTmjL4SVyqJUcTn+/NKVhc+Ltg5kBT90ONnO4WnhRgyJw==|920

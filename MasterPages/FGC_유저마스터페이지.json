@@ -35,7 +35,7 @@
       },
       "31": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 120.0
+          "DesignLengthInPixel": 80.0
         }
       }
     },
@@ -71,7 +71,7 @@
     "Count": 45
   },
   "Values": {
-    "31,0": "https://forguncy.co.kr"
+    "31,0": "포건시 데모 포탈 - https://forguncy.co.kr"
   },
   "AttachInfos": {
     "4,4": {
@@ -88,7 +88,7 @@
             "IsOpenInNewTab": true
           }
         ],
-        "Text": "https://forguncy.co.kr",
+        "Text": "포건시 데모 포탈 - https://forguncy.co.kr",
         "ClickMode": 1
       }
     }
@@ -310,4 +310,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//BdaC1b7lHGSajKxsmjZ41KDSFwCd1+rQyyAhHS94XNziz/Etn+bCltofbBvdNvHJ2ZDHJytDstnDoJPFTqBFsnj8xJmGNboQAMpBdFs3xJo8Ebs1DpVlTZJZxee58ZLNO5C4Q/zvonyboBs7pT0nFG46whra3kS1gwX+JTiZYw/mLGvI1Dkuc5BG/8PK8jgda2EerV7KfHd2mp1r0T5BPDT5wObBBDyq4qg51B/H+4Rjsm9rpFTDkXyqQXPc03Z1uk7dpVxh8yB1oJIQVkG8Hg68/QoRdVu3P+yL9aofpyXrU6ZnNH4mT24yFJ1nWxxjp9aiHs1/9DYRA7cZfbHmMxfWrxH9xRvt5Z6YGv4mIE8cgawpIN3pCFX/hisQsiGrDiOIbAugJqj1+e8pCyKc+X8qOzylSqX+AF+lQHudX+5WCwmzl//cV+FP+Ctq2kdj/1MlFZjMpRvIPrWYnsS1A3kijk1E5hNpOrkSYmHUXM2Uxzn+R3OBYPrYfyzRRKlcQjQsNfmRzvEKqtC5i/EMN50hc+s/Dzfov05kUyGNAuJLvI/6eQoJifmbZE+nMTBgAygwyyur0v5GTqfIZAT7LQac0VDuNfRYM39/8B/dl3VqN2O7bJKhh+v+ixTm1x8vFqoNVCrKTwGJtWk72wE8cYIV034fYbvSTWaR9Hv3Kyg6tiMM+LAVHmAULX5bROn5jrfISos0uZm9kRvnyod1PB+c5y4V0JW9MmCsmky+Qr1gwHiAbl04S0ikq1R90cYwSSXOm6ccJ9GgFbjirEBV5fQsNO2AMT9QhqXQzgaqAZVTd1+SlSeVv63nnXorNHq7goK9OA5lQHWhkNFO9XvPcDseGFxYJIBoaa8JweMjNVtquyeYs/L3fDna8vyvn/bUEUiBGWeSiELx83ssi8pjTA==|920
+}//WBV5/xG3g38vXUML2oKq9vUW9vv5XtwCskB1o58JD3mMjnmOc4B2JTQhJuPQjzSvO4ldc4Y7YjbuvB5X19dLhG3bjsiULmcwcnWTGfcFk9jZiGh3+c8K6dgkxa9Z2jYDdlwnVXr6ktFJrQWZlxZuyVt+3N6ZOxY3N38hHpTqPpdpe1jZ4Kqu0NFcJ9icNLQdAP1zMifbmUUo7H3FyyYLk8QbnuNydpqQ7FOlVJSkaxpkZuRq0f5YiBp2FIoSZ9gglc7XRuZGvIYuYInsLT3Nvp9fd8DAXgnjW1mq3TXtJLRDtBHQw3YvLtsfgW10I3pCL2opp2MsGWwnpiCfdx13EO4vMnXBPbSiXGA1V6h5JLWB1mekL7Z9XU0VMSkvFInJ6xeq1nvkXCkKyyRfBmSd12Rf5WF8+3OBH4fCMGhHE0dska8l9TZr82SsA9wCPg9qBjsAL6rvK8PA6v2Gs2F05ahVTd9M5MVYphKtNsH5PKb0KWiyem2dAtgbd9mrQYyWH6PNGpqNq35QOm9QAbj6fBxsP0xs2KWT1NQLLb0+XjQRSrGoUYj8uDGpZbrAUVg4DoTUVww/4PcbRw05DuaHDkp0olMqf77lq++jU21ScFqJuZa7abL3+gvCb0MzjfqF5iK6AEGeOm3iu1JZOk8MvXgM9oahrs+aHuIeGkKrz4l1ZvGkHjyfKBBtTw/SW2CEmz+EVWD1snD4dqMh8b1398cNvXApD6Lg2A1nnp/gaK1sBwxkryn8ThxcKBsc1VacqaijORv8frNymBjgy3ThYXTCdBvK5kGjddZeH9tZfaR2otQCH6icrEWbAdUn0vklEqvNMx3lclZf9PPnbrpezPRkHg+YCVAaSnoK6x0mOTP8Mwx/sYVR3kmBu/T8xcjDC1YVfhM+b5MNyKowu3XaTg==|920

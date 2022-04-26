@@ -1,47 +1,17 @@
 [
   {
     "ModuleName": "Table/카테고리_테이블",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-04-26T17:32:39.3033877+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\카테고리_테이블.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/상태_테이블",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-04-26T17:32:39.3033877+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\상태_테이블.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
     "ModuleName": "Table/즐겨찾기_테이블",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-04-26T17:32:39.3033877+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\즐겨찾기_테이블.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -150,29 +120,11 @@
   },
   {
     "ModuleName": "PCPage/즐겨찾기 정보",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-04-26T16:57:39.7089451+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\즐겨찾기 정보.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "MasterPCPage/FGC_유저마스터페이지",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-04-26T17:28:14.3824843+09:00",
-    "ModuleType": 3,
-    "ToRemoveFiles": [
-      "MasterPages\\FGC_유저마스터페이지.json"
-    ]
+    "ModuleType": 3
   },
   {
     "ModuleName": "TaskScheduler/매주 리셋",
@@ -184,20 +136,7 @@
   },
   {
     "ModuleName": "Theme",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-04-26T17:12:28.4100709+09:00",
-    "ModuleType": 9,
-    "ToRemoveFiles": [
-      "Theme\\CellTypeStyles",
-      "Theme\\ListViewStyles",
-      "Theme\\StyleDefaultNames",
-      "Theme\\ThemeConfig",
-      "D:\\JHP\\Hoony-System\\문서\\ForguncyCollaboration\\Sample.Forguncy.Favorite-master\\Reports\\DefaultTheme.rdlx-theme"
-    ]
+    "ModuleType": 9
   },
   {
     "ModuleName": "ImageSelector",
@@ -229,17 +168,6 @@
   },
   {
     "ModuleName": "PCPage/즐겨찾기",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Forguncy-Korea",
-      "Email": "jake.park@grapecity.com"
-    },
-    "LockDateTime": "2022-04-26T17:12:28.4110745+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\즐겨찾기.json",
-      "Pages\\4caa8cb4-509f-4268-9a8a-5defc194b13d.json",
-      "Pages\\a558cb85-c156-463b-9377-e15622080fcd.json"
-    ]
+    "ModuleType": 1
   }
 ]
