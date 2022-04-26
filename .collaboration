@@ -145,7 +145,20 @@
   },
   {
     "ModuleName": "Theme",
-    "ModuleType": 9
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Forguncy-Korea",
+      "Email": "jake.park@grapecity.com"
+    },
+    "LockDateTime": "2022-04-26T17:12:28.4100709+09:00",
+    "ModuleType": 9,
+    "ToRemoveFiles": [
+      "Theme\\CellTypeStyles",
+      "Theme\\ListViewStyles",
+      "Theme\\StyleDefaultNames",
+      "Theme\\ThemeConfig",
+      "D:\\JHP\\Hoony-System\\문서\\ForguncyCollaboration\\Sample.Forguncy.Favorite-master\\Reports\\DefaultTheme.rdlx-theme"
+    ]
   },
   {
     "ModuleName": "ImageSelector",
@@ -182,7 +195,7 @@
       "UserName": "Forguncy-Korea",
       "Email": "jake.park@grapecity.com"
     },
-    "LockDateTime": "2022-04-26T16:58:44.4735404+09:00",
+    "LockDateTime": "2022-04-26T17:12:28.4110745+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\즐겨찾기.json",
