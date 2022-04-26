@@ -120,7 +120,16 @@
   },
   {
     "ModuleName": "PCPage/즐겨찾기 정보",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Forguncy-Korea",
+      "Email": "jake.park@grapecity.com"
+    },
+    "LockDateTime": "2022-04-26T16:57:39.7089451+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\즐겨찾기 정보.json"
+    ]
   },
   {
     "ModuleName": "MasterPCPage/FGC_유저마스터페이지",
