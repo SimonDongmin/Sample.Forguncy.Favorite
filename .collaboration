@@ -112,7 +112,17 @@
   },
   {
     "ModuleName": "PCPage/즐겨찾기",
-    "ModuleType": 1
+    "State": 2,
+    "LockedBy": {
+      "UserName": "DESKTOP-CV08ODT\\Dongmin",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2022-04-26T16:42:10.8931222+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\즐겨찾기.json",
+      "Pages\\53919439-52ea-49b9-8a0b-cf11b7eb21e7.json"
+    ]
   },
   {
     "ModuleName": "PCPage/즐겨찾기 (2)",
