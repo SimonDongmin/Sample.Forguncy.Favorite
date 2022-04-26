@@ -111,34 +111,6 @@
     "ModuleType": 2
   },
   {
-    "ModuleName": "PCPage/즐겨찾기",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "DESKTOP-CV08ODT\\Dongmin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-04-26T16:42:10.8931222+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\즐겨찾기.json",
-      "Pages\\53919439-52ea-49b9-8a0b-cf11b7eb21e7.json"
-    ]
-  },
-  {
-    "ModuleName": "PCPage/즐겨찾기 (2)",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "DESKTOP-CV08ODT\\Dongmin",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2022-04-26T16:42:04.8332851+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\즐겨찾기 (2).json",
-      "Pages\\427f10d4-cf28-4832-919a-b6c539210bb1.json"
-    ]
-  },
-  {
     "ModuleName": "PCPage/즐겨찾기 (3)",
     "ModuleType": 1
   },
